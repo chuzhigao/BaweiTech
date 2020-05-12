@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BaweiTech.iml" filepath="$PROJECT_DIR$/BaweiTech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BaweiTech.iml" filepath="$PROJECT_DIR$/.idea/BaweiTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/HadoopTech/HadoopTech.iml" filepath="$PROJECT_DIR$/HadoopTech/HadoopTech.iml" />
     </modules>
   </component>
