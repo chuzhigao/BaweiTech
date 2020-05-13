@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BaweiTech" target="1.5" />
-      <module name="HadoopTech" target="1.5" />
+      <module name="BaweiTech" target="8" />
+      <module name="HadoopTech" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

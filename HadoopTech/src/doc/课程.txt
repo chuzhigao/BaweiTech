@@ -1,0 +1,30 @@
+第一天
+ 第一堂课
+  讲解hadoop入门
+
+ 第二堂课
+ a)jdk 安装
+   JAVA_HOME C:\Program Files\Java\jdk1.8.0_162
+   path      ;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+   CLASSPATH .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar
+   最后一定在cmd 下  java -version
+ b)maven 的安装
+   MAVEN_HOME C:\apache-maven-3.5.3
+   path       %MAVEN_HOME%\bin
+   settings.xml 文件中修改本地库与阿里镜像地址
+ c)idea 安装
+   修改 C:\Windows\System32\drivers\etc\
+
+ d)windows下的环境搭建
+   将hadoop文件解压到目录中
+   HADOOP_HOME C:\Develop\hadoop-2.7.2
+   path       %HADOOP_HOME%\bin
+   将适合的windows各个版本替换
+   测试：用一个单词统计测试
+
+第3堂课
+  开始shell编程讲解
+    要对网络上的shell进行系统讲解
+    具体可以参考菜鸟
+
+
