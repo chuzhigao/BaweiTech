@@ -34,7 +34,7 @@ public class WordCountJob {
 
         //设置输入输出路径
         FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\data\\day01\\input"));
-        FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\day01\\output"));
+        FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\day01\\output1"));
         boolean b = job.waitForCompletion(true);
         System.exit( b== true?0:-1);
 

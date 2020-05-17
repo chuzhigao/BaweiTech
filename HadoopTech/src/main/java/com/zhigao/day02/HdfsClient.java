@@ -177,8 +177,8 @@ public class HdfsClient {
         */
         // 创立一个配置文件，这样通过配置获取到文件系统，client 通过文件系统访问namenode
         org.apache.hadoop.conf.Configuration cg = new org.apache.hadoop.conf.Configuration();
-        cg.set("fs.defaultFS","hdfs://192.168.40.126:9000");
-        FileSystem  fileSystem = FileSystem.get( new URI("hdfs://192.168.40.126:9000"), cg,"root") ;
+        cg.set("fs.defaultFS","hdfs://192.168.40.121:9000");
+        FileSystem  fileSystem = FileSystem.get( new URI("hdfs://192.168.40.121:9000"), cg,"root") ;
         // 通过文献系统去进行操作
         return  fileSystem ;
     }
@@ -198,8 +198,8 @@ public class HdfsClient {
         */
         // 创立一个配置文件，这样通过配置获取到文件系统，client 通过文件系统访问namenode
         org.apache.hadoop.conf.Configuration cg = new org.apache.hadoop.conf.Configuration();
-        cg.set("fs.defaultFS","hdfs://192.168.40.126:9000");
-        FileSystem  fileSystem = FileSystem.get( new URI("hdfs://192.168.40.126:9000"), cg,"root") ;
+        cg.set("fs.defaultFS","hdfs://192.168.40.121:9000");
+        FileSystem  fileSystem = FileSystem.get( new URI("hdfs://192.168.40.121:9000"), cg,"root") ;
         // 通过文献系统去进行操作
         fileSystem.mkdirs(new Path("/chuzhigao/test")) ;
         fileSystem.close();
