@@ -23,6 +23,9 @@ public class HdfsClient {
     //上传一个文件
     public static void putFile() throws IOException, URISyntaxException, InterruptedException {
         //找到配置=》通过HDFS 系统配置去访问
+
+
+
         Configuration conf = new Configuration() ;
         conf.set("fs.defaultFS","hdfs://192.168.40.121:9000" );
         //通过配置去访问, 其中如果跨平台，需要使用root 用户。
