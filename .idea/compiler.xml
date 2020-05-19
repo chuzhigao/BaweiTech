@@ -11,7 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="BaweiTech" target="1.8" />
-      <module name="HadoopTech" target="1.8" />
+      <module name="HadoopTech" target="1.5" />
+      <module name="hdfsapidemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

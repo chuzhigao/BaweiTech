@@ -26,10 +26,10 @@ public class HdfsClient {
         Configuration conf = new Configuration() ;
         conf.set("fs.defaultFS","hdfs://192.168.40.121:9000" );
         //通过配置去访问, 其中如果跨平台，需要使用root 用户。
-        FileSystem fs = FileSystem.get ( new URI("") , conf,"root") ;
+        FileSystem fs = FileSystem.get ( new URI("hdfs://192.168.40.121:9000") , conf,"root") ;
 
         //上传文件
-        fs.copyFromLocalFile( new Path("c:/ccc.sql") , new Path("/chuzhigao/cc.sql"));
+        fs.copyFromLocalFile( new Path("c:/ccc.sql") , new Path("/chuzhigao/cc1.sql"));
         //
         fs.close();
 
@@ -63,6 +63,7 @@ public class HdfsClient {
         //获取文件系统
         FileSystem fs =  getFs();
         FileStatus[] fileStatuses = fs.listStatus(new Path("/"));
+
         for (FileStatus ff:  fileStatuses ) {
 
             if (ff.isDirectory()){

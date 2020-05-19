@@ -14,6 +14,17 @@
    settings.xml 文件中修改本地库与阿里镜像地址
  c)idea 安装
    修改 C:\Windows\System32\drivers\etc\
+   1）把 JetbrainsCrack-2.6.10-release-enc.jar 拷贝到安装目录中的lib目录下
+   比如我的是：C:\ProgramFiles\JetBrains\IntelliJ IDEA 2017.2.5\lib
+   2）把目录C:\ProgramFiles\JetBrains\IntelliJ IDEA 2017.2.5\bin下的文件idea64.exe.vmoptions
+      最后一句加上
+      -javaagent:C:\ProgramFiles\JetBrains\IntelliJ IDEA 2017.2.5\lib\JetbrainsCrack-2.6.10-release-enc.jar
+   3）启动idea
+      把idea旗舰版注册码.txt 在idea 启动时候进行注册
+   4）在host文件中加入一个域名
+      C:\Windows\System32\drivers\etc\hosts
+      加入 0.0.0.0 account.jetbrains.com
+         0.0.0.0 www.jetbrains.com
 
  d)windows下的环境搭建
    将hadoop文件解压到目录中
