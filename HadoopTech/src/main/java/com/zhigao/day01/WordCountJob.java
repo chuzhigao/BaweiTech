@@ -32,6 +32,9 @@ public class WordCountJob {
         job.setMapperClass(WordCountMapper.class);
         job.setReducerClass(WordCountReduce.class);
 
+
+
+
         //设置输入输出路径
         FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\data\\day01\\input"));
         FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\day01\\output1"));
