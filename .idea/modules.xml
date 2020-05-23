@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BaweiTech.iml" filepath="$PROJECT_DIR$/.idea/BaweiTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/HadoopTech/HadoopTech.iml" filepath="$PROJECT_DIR$/HadoopTech/HadoopTech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worddemo/worddemo.iml" filepath="$PROJECT_DIR$/worddemo/worddemo.iml" />
     </modules>
   </component>
 </project>

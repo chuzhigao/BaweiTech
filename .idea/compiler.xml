@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HadoopTech" />
+        <module name="worddemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="BaweiTech" target="1.8" />
       <module name="HadoopTech" target="1.8" />
+      <module name="worddemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

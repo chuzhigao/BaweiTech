@@ -1,4 +1,4 @@
-package com.zhigao.day03;
+package com.zhigao.day06;
 
 import org.apache.hadoop.io.Writable;
 
