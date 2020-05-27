@@ -28,11 +28,11 @@ public class HashSetDriver {
 
 //        		FileInputFormat.setInputPaths(job, new Path(args[0]));
 //        		FileOutputFormat.setOutputPath(job, new Path(args[1]));
-		 FileInputFormat.setInputPaths(job, new Path(args[0]));
-		 FileOutputFormat.setOutputPath(job, new Path(args[1]));
+//		 FileInputFormat.setInputPaths(job, new Path(args[0]));
+//		 FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-//		FileInputFormat.setInputPaths(job, new Path("C:\\HadoopTeacher\\data\\test\\week21\\input"));
-//		FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\test\\week21\\output11"));
+		FileInputFormat.setInputPaths(job, new Path("C:\\HadoopTeacher\\data\\test\\week21\\input"));
+		FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\test\\week21\\output1111"));
 
 		job.waitForCompletion(true) ;
 

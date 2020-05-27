@@ -10,6 +10,7 @@ import java.util.Iterator;
 
 public class Step1Recuce extends Reducer<Text, NullWritable, Text, NullWritable> {
 
+
     Text cc = new Text() ;
 
     @Override
@@ -21,11 +22,7 @@ public class Step1Recuce extends Reducer<Text, NullWritable, Text, NullWritable>
             //key 会变化
             iterator.next() ;
             String c  = key.toString() ;
-            c.substring(0, c.length() -1 ) ;//.replace('[',' ').replace(']',' ') ;
-
-            System.out.printf(" !!!!!!!!!!!!" + c);
             set.add(c) ;
-
         }
         Iterator iterator1 = set.iterator();
         while ( iterator1.hasNext()){
