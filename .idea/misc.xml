@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/HadoopTech/pom.xml" />
         <option value="$PROJECT_DIR$/worddemo/pom.xml" />
+        <option value="$PROJECT_DIR$/HiveDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/toupper/pom.xml" />
+        <option value="$PROJECT_DIR$/hiveDemo2/pom.xml" />
+        <option value="$PROJECT_DIR$/udfdemo/pom.xml" />
       </list>
     </option>
   </component>

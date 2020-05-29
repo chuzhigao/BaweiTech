@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HiveDemo" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hiveDemo2" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/toupper" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/udfdemo" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/worddemo" vcs="svn" />
   </component>
 </project>

@@ -7,12 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HadoopTech" />
+        <module name="HiveDemo" />
+        <module name="hiveDemo2" />
+        <module name="toupper" />
+        <module name="udfdemo" />
         <module name="worddemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="BaweiTech" target="1.8" />
       <module name="HadoopTech" target="1.8" />
+      <module name="HiveDemo" target="1.8" />
+      <module name="hiveDemo2" target="1.8" />
+      <module name="hivejdbcdemo1" target="1.8" />
+      <module name="toupper" target="1.8" />
+      <module name="udfdemo" target="1.8" />
       <module name="worddemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
