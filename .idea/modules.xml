@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" filepath="$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/toupper/toupper.iml" filepath="$PROJECT_DIR$/toupper/toupper.iml" />
       <module fileurl="file://$PROJECT_DIR$/udfdemo/udfdemo.iml" filepath="$PROJECT_DIR$/udfdemo/udfdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weekhivejdbc/weekhivejdbc.iml" filepath="$PROJECT_DIR$/weekhivejdbc/weekhivejdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/worddemo/worddemo.iml" filepath="$PROJECT_DIR$/worddemo/worddemo.iml" />
     </modules>
   </component>

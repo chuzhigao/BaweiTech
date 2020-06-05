@@ -104,7 +104,7 @@ public class GdpDriver {
                 //对输入输出参数设置
                 // Text, IntWritable
         job.setGroupingComparatorClass(GdpGroupCompaetor.class);
-        job.setPartitionerClass(GdpPartition.class);
+
 
 
                 job.setOutputKeyClass(GdpBean.class);
@@ -118,6 +118,7 @@ public class GdpDriver {
 
 
 
+        job.setPartitionerClass(GdpPartition.class);
 
                 //设置输入输出路径
                 FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\data\\day09\\input"));

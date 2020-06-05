@@ -33,9 +33,9 @@ public class FlowJobDriver {
         job.setOutputKeyClass(FlowBean.class);
         job.setOutputValueClass(NullWritable.class);
         //单独加入分区的业务逻辑
-//        job.setPartitionerClass(SfPartiton.class);
-//        //改变reducetask的数量，去对每一个给定的业务分区进行分析
-//        job.setNumReduceTasks(4);
+        job.setPartitionerClass(SfPartiton.class);
+        //改变reducetask的数量，去对每一个给定的业务分区进行分析
+        job.setNumReduceTasks(4);
 
 
         //启动job进程,等待任务执行完毕

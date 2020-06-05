@@ -77,8 +77,8 @@ public class TeleptoneDrvier {
                 job.setJarByClass(TeleptoneDrvier.class);
                 //对输入输出参数设置
                 // Text, IntWritable
-                job.setPartitionerClass(WordPartiton.class);
-                job.setNumReduceTasks(4);
+//                job.setPartitionerClass(WordPartiton.class);
+//                job.setNumReduceTasks(4);
 
                 job.setOutputKeyClass(TeleptoneBean.class);
                 job.setOutputValueClass(NullWritable.class);

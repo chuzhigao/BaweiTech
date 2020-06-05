@@ -25,30 +25,5 @@ public class OrderReduce extends Reducer<OrderBean,NullWritable,OrderBean,NullWr
             context.write(key, NullWritable.get());
         }
 
-
-//        Iterator<NullWritable> iterator = values.iterator();
-//        iterator.next();
-//        OrderBean c =new OrderBean();
-//        String name = key.getName();
-//        String uid =key.getUid();
-//        c.setName(name);
-//        c.setUid(uid);
-//        System.out.printf("name=!!!!!!!!!!!!!"+name);
-//
-//        while (iterator.hasNext()){
-//            iterator.next();
-//           // System.out.printf("child name=!!!!!!!!!!!!!"+c.getName()+"-"+c.getUid());
-//            key.setName(name);
-//
-//            System.out.println(" 22222222 name =" + key.getUid() + " good id =" + key.getOid() + " : sid " + key.getName() + "  num =" + key.getNum());
-//
-//
-//            context.write(key,NullWritable.get());
-//        }
-//        for (NullWritable c:
-//             values) {
-//
-//            context.write(key,NullWritable.get());
-//        }
     }
 }
