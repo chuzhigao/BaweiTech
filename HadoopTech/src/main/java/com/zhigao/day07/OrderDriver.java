@@ -37,8 +37,10 @@ public class OrderDriver {
 
 
                 //设置输入输出路径
-                FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\data\\day07\\input"));
-                FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\day07\\output"));
+               // FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\data\\day07\\input"));
+         FileInputFormat.setInputPaths(job,new Path("C:\\HadoopTeacher\\workspace\\BaweiTech\\HadoopTech\\src\\main\\resources\\month04"));
+
+        FileOutputFormat.setOutputPath(job, new Path("C:\\HadoopTeacher\\data\\day07\\outputqqq"));
                 boolean b = job.waitForCompletion(true);
                 System.exit( b== true?0:-1);
     }

@@ -1,0 +1,18 @@
+1: start hadoop 
+  cd /opt/module/hadoop-2.7.2/sbin/
+  ./start-all.sh
+
+2. flume 
+cd /opt/module/flume/bin
+flume-ng agent -f /opt/module/flume/conf/flume-conf.properties -n a1
+
+3. zookeeep
+   cd /opt/module/zookeeper-3.4.10/bin
+   ./zkServer.sh start
+   
+4. kafaa 
+ bin/kafka-server-start.sh config/server.properties &
+
+5: /opt/module/tomcat/bin
+   ./startup.sh
+6: java -cp app_logs_client-1.0-SNAPSHOT-jar-with-dependencies.jar  com.atguigu.app.client.GenerateData   
