@@ -27,7 +27,7 @@ public class Week3Test2Driver {
 
                     String year = split[1].substring( split[1].length()-5 ,split[1].length() -1 ) ;
 
-
+                   //转义
                     String[] split1 = split[2].split("\\|");
                     for ( String c :
                             split1 ) {

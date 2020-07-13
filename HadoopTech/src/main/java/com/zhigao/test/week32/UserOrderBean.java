@@ -34,15 +34,18 @@ public class UserOrderBean  implements WritableComparable<UserOrderBean> {
     @Override
     public int compareTo(UserOrderBean o) {
 
-        // 1：userid 2:username
-        int i =  o.getUserId() .compareTo(this.userId);
-        if(i == 0){
 
-            return  o.getUserName().compareTo(this.userName) ;
-        }
-        else {
-            return  i ;
-        }
+        return  o.getUserId().compareTo(this.userId) == 0 ? o.getUserName().compareTo(this.userName):o.getUserId().compareTo(this.userId) ;
+//
+//        // 1：userid 2:username
+//        int i =  o.getUserId() .compareTo(this.userId);
+//        if(i == 0){
+//
+//            return  o.getUserName().compareTo(this.userName) ;
+//        }
+//        else {
+//            return  i ;
+//        }
     }
 
     @Override

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flink" />
         <module name="HadoopTech" />
         <module name="HiveDemo" />
         <module name="hiveDemo2" />
@@ -17,6 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="BaweiTech" target="1.8" />
+      <module name="commerce" target="1.8" />
+      <module name="flink" target="1.8" />
       <module name="HadoopTech" target="1.8" />
       <module name="HiveDemo" target="1.8" />
       <module name="hiveDemo2" target="1.8" />

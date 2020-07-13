@@ -55,7 +55,7 @@ public class UserOrderDriver {
                       context.write(userOrderBean ,NullWritable.get());
 
                     }
-                    else {
+                    else if(split.length == 4) {
                       // u001,senge,18,angelababy
                       userOrderBean.setOrderId("NULL");
                       userOrderBean.setUserId( split[0]);
@@ -103,7 +103,7 @@ public class UserOrderDriver {
                     Job job = Job.getInstance(cfg) ;
                     job.setJarByClass(UserOrderDriver.class);
                     //特别注意，分组器不加出现问题
-                    job.setGroupingComparatorClass(UserGroupCompartor.class);
+                  job.setGroupingComparatorClass(UserGroupCompartor.class);
                     //对输入输出参数设置
                     // Text, IntWritable
 

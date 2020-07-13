@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/BaweiTech.iml" filepath="$PROJECT_DIR$/.idea/BaweiTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/HadoopTech/HadoopTech.iml" filepath="$PROJECT_DIR$/HadoopTech/HadoopTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" filepath="$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/toupper/toupper.iml" filepath="$PROJECT_DIR$/toupper/toupper.iml" />
       <module fileurl="file://$PROJECT_DIR$/udfdemo/udfdemo.iml" filepath="$PROJECT_DIR$/udfdemo/udfdemo.iml" />
