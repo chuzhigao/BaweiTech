@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="flink" />
+    <profile name="Maven 1" modules="flink,FlinkExample,FlinkTutorial" />
+    <profile name="Maven 2" modules="ScalaDemo">
+      <parameters>
+        <parameter value="-make:transitive" />
+        <parameter value="-dependencyfile" />
+        <parameter value="C:\HadoopTeacher\workspace\BaweiTech\ScalaDemo\target/.scala_dependencies" />
+      </parameters>
+    </profile>
   </component>
 </project>

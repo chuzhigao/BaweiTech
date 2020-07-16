@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BaweiTech.iml" filepath="$PROJECT_DIR$/.idea/BaweiTech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlinkExample/FlinkExample.iml" filepath="$PROJECT_DIR$/FlinkExample/FlinkExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlinkTutorial/FlinkTutorial.iml" filepath="$PROJECT_DIR$/FlinkTutorial/FlinkTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/HadoopTech/HadoopTech.iml" filepath="$PROJECT_DIR$/HadoopTech/HadoopTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScalaDemo/ScalaDemo.iml" filepath="$PROJECT_DIR$/ScalaDemo/ScalaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" filepath="$PROJECT_DIR$/hiveDemo2/hiveDemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/toupper/toupper.iml" filepath="$PROJECT_DIR$/toupper/toupper.iml" />

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlinkExample" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/FlinkTutorial" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/HiveDemo" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ScalaDemo" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/flink" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/hiveDemo2" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/toupper" vcs="svn" />

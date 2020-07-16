@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink" />
+        <module name="FlinkExample" />
+        <module name="FlinkTutorial" />
         <module name="HadoopTech" />
         <module name="HiveDemo" />
         <module name="hiveDemo2" />
+        <module name="ScalaDemo" />
         <module name="toupper" />
         <module name="udfdemo" />
         <module name="weekhivejdbc" />
@@ -20,10 +23,13 @@
       <module name="BaweiTech" target="1.8" />
       <module name="commerce" target="1.8" />
       <module name="flink" target="1.8" />
+      <module name="FlinkExample" target="1.8" />
+      <module name="FlinkTutorial" target="1.8" />
       <module name="HadoopTech" target="1.8" />
       <module name="HiveDemo" target="1.8" />
       <module name="hiveDemo2" target="1.8" />
       <module name="hivejdbcdemo1" target="1.8" />
+      <module name="ScalaDemo" target="1.8" />
       <module name="toupper" target="1.8" />
       <module name="udfdemo" target="1.8" />
       <module name="weekhivejdbc" target="1.8" />
